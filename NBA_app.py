@@ -19,7 +19,7 @@ This app perform webscraping of NBA Player Stats Data!
 """)
 
 st.sidebar.header("Please Select!")
-selected_year = st.sidebar.selectbox("Year", list(reversed(range(1950,2022))))
+selected_year = st.sidebar.selectbox("Year", list(reversed(range(1950,2024))))
 
 # Web scraping of NBA Player stats
 @st.cache_data(persist=True) #So that is wont reload whole again and again
