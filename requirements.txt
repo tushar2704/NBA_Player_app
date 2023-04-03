@@ -1,7 +1,7 @@
 streamlit
 pandas
 base64
-matplotlib.pyplot
+matplotlib
 seaborn
 numpy
 lxml
